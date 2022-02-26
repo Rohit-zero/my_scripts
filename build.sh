@@ -66,7 +66,7 @@ function compile() {
 # Zipping
 function zipping() {
     cd AnyKernel || exit 1
-    zip -r9 Xenon_xe_testing-V0.1-${TANGGAL}.zip *
+    zip -r9 Xenon_xe_V0.1-${TANGGAL}.zip *
     cd ..
 }
 sticker
